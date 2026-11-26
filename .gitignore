@@ -1,0 +1,45 @@
+# Python virtual environments
+.venv/
+local_tts_env/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Private environment files
+.env
+.env.*
+!.env.example
+
+# AI models and downloaded dependencies
+local_models/
+local_Amphion/
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Generated audio
+*.wav
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Flutter generated files
+mobile_app/.dart_tool/
+mobile_app/build/
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+
+# Android local configuration and signing keys
+mobile_app/android/local.properties
+mobile_app/android/key.properties
+*.jks
+*.keystore
+
+# macOS files
+.DS_Store
+backend/main_colab_backup.py
